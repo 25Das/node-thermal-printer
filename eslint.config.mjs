@@ -1,6 +1,5 @@
-import globals from "globals";
 import pluginJs from "@eslint/js";
-
+import globals from "globals";
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
@@ -10,11 +9,11 @@ export default [
   {
     rules: {
       "no-var": "warn",
-      "semi": "warn",
+      semi: "warn",
       // "console-log": "warn",
       "no-case-declarations": "off",
       "global-require": "off",
-      "radix": "off",
+      radix: "off",
       "no-plusplus": "off",
       "no-useless-catch": "off",
       "no-unused-vars": "warn",
@@ -22,15 +21,12 @@ export default [
       "class-methods-use-this": "off",
       "prefer-promise-reject-errors": "off",
       "no-throw-literal": "off",
-      "eqeqeq": "off",
+      eqeqeq: "off",
       "no-bitwise": "off",
       "no-restricted-syntax": "off",
       "no-control-regex": "off",
       "guard-for-in": "off",
-      "max-len": [
-        "error",
-        140
-      ]
-    }
-  }
+      "max-len": ["error", 140],
+    },
+  },
 ];
