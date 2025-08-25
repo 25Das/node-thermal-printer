@@ -19,7 +19,6 @@ export default [
       "no-useless-catch": "off",
       "no-unused-vars": "warn",
       "no-param-reassign": "off",
-      "space-before-function-paren": "error",
       "class-methods-use-this": "off",
       "prefer-promise-reject-errors": "off",
       "no-throw-literal": "off",
